@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Sarala:wght@400;700">
+</head>
+<body>
+   
+    <div class="navbar">
+        <h1>BLOGS</h1>
+    </div>
+
+    <div class="container">
+      <div class="book-container">
+        <h2>FOOD</h2>
+        <h5>peter</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius adipisci voluptate quibusdam repellendus error vero facere sapiente odio culpa, possimus exercitationem. Laudantium dicta accusantium porro deleniti ut debitis aliquid nulla?</p>
+        <button onclick="deletebook(event)">Delete</button>
+       
+      </div>
+    </div>
+    <div class="popupoverlay"></div>
+    <div class="popup-box">
+        <h2>CREATE BLOG</h2>
+        <form>
+            <input type="text" placeholder="Blog Title" id="book-title-input">
+            <input type="text" placeholder="your name" id="book-author-input">
+            <textarea placeholder="write your blog" id="book-decription-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+            
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
